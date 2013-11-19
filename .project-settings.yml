@@ -5,6 +5,18 @@ extensions: {}
 environment: ghc-7.4.2-stable-13.09
 cabal-file: project.cabal
 modules:
+  Phases:
+    filename: src/Phases.hs
+  Actions:
+    filename: src/Actions.hs
+  Game:
+    filename: src/Game.hs
+  RuneDiscs:
+    filename: src/RuneDiscs.hs
+  Characters:
+    filename: src/Characters.hs
+  Players:
+    filename: src/Players.hs
   Main(src/Main.hs):
     filename: src/Main.hs
 version: 1
